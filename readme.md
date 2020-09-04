@@ -19,7 +19,8 @@ information provided by CJDNS SASU is provided WITHOUT WARRANTY OF ANY KIND.
 ## Cookies
 * explorer.pkt.cash does not set any cookies
 * pkt.cash does not set any cookies except one cookie which tells Klavio not to set any cookies
-* pkt.chat sets cookies for session cookies for keeping you logged in and a few 1 year long tracking cookies which are set by the Matterfoss software but are unused.
+* pkt.chat uses identification cookies when you log in, the software also uses tracking cookies but they have been set
+to non-unique "dummy" values in order that they will not track you.
 
 ## Contact
 CJDNS SASU is located at 8 rue saint-exupéry, 78300 Poissy FRANCE
