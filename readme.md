@@ -13,7 +13,13 @@ information provided by CJDNS SASU is provided WITHOUT WARRANTY OF ANY KIND.
 * If you provide your email address to the pkt.cash website, it will be processed by Klaviyo in the USA who processes data subject to the [Klaviyo data protection addendum](https://www.klaviyo.com/privacy/dpa) and CJDNS SASU may communicate with you from time to time with information about PKT related software projects, but you may unsubscribe at any time.
 * If you provide your email to sign up on the pkt.chat chat server, it will be processed by [Mailgun in Europe](https://www.mailgun.com/gdpr/) and will be used for password reset and confirmation for the chat server. We will not use it to communicate with you except in emergency.
 * Data which you upload to the pkt.chat chat server (including messages, uploads, name, avatar, etc) are stored on our OVH server in France by the [Matterfoss software](https://github.com/cjdelisle/Matterfoss).
-* Websites are hosted using nginx web server with standard log levels enabled, so when you access these sites, some information such as your IP address, user-agent and URL and the time are logged. These logs are deleted when they begin taking up too much space on the server.
+* Websites are hosted using nginx web server with standard log levels enabled, so when you access these sites, some information such as your IP address, user-agent and URL and the time are logged.
+  * Logs on pkt.cash and explorer.pkt.cash are imported to a [Matomo](https://matomo.org/) server hosted by
+  CJDNS SASU.
+  * The purpose of the Matomo server is for understanding how the sites are used
+  * IP addresses are anonymized using Matomo's
+  [IP Address Anonymity](https://matomo.org/docs/privacy/#step-1-automatically-anonymize-visitor-ips) configuration.
+  * This data is kept on-premise and is not shared with any other organization
 * pkt.cash uses Google recaptcha for the contact form.
 
 ## Cookies
